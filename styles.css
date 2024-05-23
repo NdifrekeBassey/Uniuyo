@@ -11,21 +11,21 @@ header {
   padding: 20px;
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-header .logo-left {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 10px;
 }
 
+header .logo-left,
 header .logo-right {
-  position: absolute;
-  top: 20px;
-  right: 20px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -111,15 +111,32 @@ a:hover {
 }
 
 .dropdown li a {
-  color: #ffffff;
+  color: #dc3545;
 }
 
 .dropdown li a:hover {
-  color: #ffffff;
+  color: #c82333;
 }
 
 /* Responsive Styles */
 @media only screen and (max-width: 600px) {
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .logo-left, header .logo-right {
+    height: 80px;
+    width: 80px;
+    margin: 10px 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   nav ul li {
     display: block;
     margin: 10px 0;
@@ -133,13 +150,5 @@ a:hover {
 
   nav ul li:hover ul.dropdown {
     display: block;
-  }
-
-  header .logo-left, header .logo-right {
-    position: static;
-    display: block;
-    margin: 10px auto;
-    height: 80px;
-    width: 80px;
   }
 }
