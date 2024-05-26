@@ -111,18 +111,30 @@ a:hover {
 }
 
 .dropdown li a {
-  color: #ffffff;
+  color: #333;
 }
 
 .dropdown li a:hover {
-  color: #ffffff;
+  color: #000;
 }
 
 /* Responsive Styles */
 @media only screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
   nav ul li {
     display: block;
     margin: 10px 0;
+  }
+
+  nav ul {
+    text-align: center;
   }
 
   nav ul li ul.dropdown {
@@ -141,5 +153,11 @@ a:hover {
     margin: 10px auto;
     height: 80px;
     width: 80px;
+  }
+
+  .download-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 }
