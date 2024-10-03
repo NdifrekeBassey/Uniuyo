@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background */
+  color: white; /* White text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack content vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  text-align: center;
+  padding: 20px; /* Add padding to container */
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Coming Soon Styles */
+h1 {
+  font-size: 3rem;
+  background: linear-gradient(to right, #3b8d99, #6eeb83, #dce35b);
+  -webkit-background-clip: text; /* For Safari and older Chrome */
+  -moz-background-clip: text; /* For older Firefox */
+  background-clip: text; /* Standard property */
+  -webkit-text-fill-color: transparent; /* For Safari */
+  color: transparent; /* Fallback for other browsers */
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Input Styles */
+input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  background-color: #3b8d99;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+  background-color: #2a5b61;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 30px;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem; /* Smaller font size for mobile */
+  }
+
+  input[type="email"] {
+    width: 80%; /* Make input width responsive */
+  }
+
+  button {
+    width: 80%; /* Make button width responsive */
+  }
+}

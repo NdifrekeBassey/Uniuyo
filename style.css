@@ -1,0 +1,312 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+nav {
+  background-color: #0056b3;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Logos Section */
+/* #logos {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+} */
+
+/* Home Section */
+#home {
+  position: relative;
+  height: 80vh;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.welcome-text {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: fadeIn 2s ease-in;
+}
+
+/* About the Department */
+#about-department {
+  padding: 40px;
+  background-color: #e6f2ff;
+  text-align: center;
+  color: #333;
+}
+
+/* Meet the Team Section */
+#meet-the-team {
+  padding: 20px;
+  text-align: center;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.member-info {
+  text-align: left;
+}
+
+.member-info h3 {
+  margin: 5px 0;
+}
+
+.member-info p {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Contact Us Section */
+#contact-us {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#contact-us form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-us label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+#contact-us input,
+#contact-us textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#contact-us button {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contact-us button:hover {
+  background-color: #003f7f;
+}
+
+/* Announcements Section */
+#announcements {
+  padding: 40px;
+  background-color: #e6f2ff;
+  text-align: center;
+}
+
+#announcements h3 {
+  margin: 20px 0;
+}
+
+/* Live Chat Section */
+#live-chat {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#live-chat a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#live-chat a:hover {
+  text-decoration: underline;
+}
+
+/* Back to Top Button */
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#back-to-top:hover {
+  background-color: #003f7f;
+}
+
+/* Styling for all anchor tags */
+a {
+  text-decoration: none;
+  color: red;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #0056b3;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .team-member {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .welcome-text h1 {
+    font-size: 24px;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Same as before */
+
+/* Accordion Styles for Levels */
+.accordion {
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.accordion:hover,
+.accordion.active {
+  background-color: #003f7f;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.panel ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.panel li {
+  margin-bottom: 10px;
+}
+
+.panel button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.panel button:hover {
+  background-color: #003f7f;
+}
+
+/* Coming Soon Page */
+.coming-soon {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}

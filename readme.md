@@ -1,37 +1,28 @@
-# 🌐 CRESA
+# 🌐 Department of Computer and Robotics Education Website
 
-Welcome to the official website of the Computer and Robotics Education Student Association (CRESA) at the University of Uyo, Nigeria!
+Welcome to the official website for the Department of Computer and Robotics Education at the University of Uyo. This website serves as a comprehensive platform for students, faculty, and prospective students to explore the department's offerings and announcements.
 
-## 🏠 Home
+## About the Website
 
-### Welcome to the Department
-This is the department of Computer and Robotics Education located in the University of Uyo, Nigeria.
+The website is designed to provide essential information about the Department of Computer and Robotics Education, featuring:
 
-## 📚 Courses
+- **Responsive Design** 📱: The layout adapts seamlessly across various devices, ensuring a smooth user experience whether on desktop, tablet, or mobile.
 
-### GST 121 - Nigerian People and Culture
-This course covers the cultural heritage and history of Nigeria, providing insights into the diverse ethnic groups and their traditions.
+- **Meet the Team Section** 👩‍🏫: This section introduces the faculty and staff, complete with profile images and brief descriptions, showcasing the leadership and support available within the department.
 
-### COS 121 - Problem Solving
-This course introduces problem-solving techniques and logical reasoning, essential for programming and computational tasks.
+- **Course Listings** 📚: Each level page (100, 200, 300, and 400 level) provides a detailed list of courses offered in both semesters. Students can easily preview and download lecture notes for their courses.
 
-### CED 122 - Introduction to Computer Programming in Education
-This course provides an introduction to programming concepts and their application in educational settings.
+- **Announcements Page** 📣: A dedicated page to keep students informed about important updates and departmental news. Users can subscribe to receive notifications about upcoming announcements.
 
-### CED 123 - Management Information System for Teachers and Managers
-This course explores the use of management information systems in educational administration and management.
+- **Contact Form** 📧: A simple contact form allows users to reach out with questions, feedback, or inquiries directly to the department.
 
-### CED 124
-Details about this course are to be provided.
+## Technologies Used
 
-### CED 125 - Features of Computer-Based Education
-This course examines the features and advantages of computer-based education, including interactive learning and digital resources.
+- **HTML5** 📝: Structure and content of the website.
+- **CSS3** 🎨: Styling and layout, including responsive design techniques.
+- **JavaScript** ⚙️: Interactivity features such as the light/dark mode toggle and email subscription functionality.
+- **Flexbox** 📐: Used for layout management to ensure responsiveness.
 
-## 📞 Contact Us
+## Acknowledgments
 
-- 📞 [Ndifreke Bassey](tel:+2349070332721)
-
-## 🦅 Footer
-View the page at https://cresa.netlify.app/
-
-&copy; Copyright Reserved - Eagletech
+- This website was created to enhance communication and accessibility for the Department of Computer and Robotics Education
