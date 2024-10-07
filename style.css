@@ -30,17 +30,6 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Logos Section */
-/* #logos {
-  display: flex;
-  justify-content: center;
-}
-
-.logo {
-  width: 100px;
-  border-radius: 50%;
-} */
-
 /* Home Section */
 #home {
   position: relative;
@@ -60,6 +49,7 @@ nav ul li a {
 .welcome-text {
   position: relative;
   color: white;
+  font-size: larger;
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
@@ -157,23 +147,6 @@ nav ul li a {
 
 #announcements h3 {
   margin: 20px 0;
-}
-
-/* Live Chat Section */
-#live-chat {
-  text-align: center;
-  padding: 20px;
-  background-color: #f0f0f0;
-}
-
-#live-chat a {
-  color: #0056b3;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#live-chat a:hover {
-  text-decoration: underline;
 }
 
 /* Back to Top Button */
@@ -302,11 +275,4 @@ footer {
 
 .panel button:hover {
   background-color: #003f7f;
-}
-
-/* Coming Soon Page */
-.coming-soon {
-  text-align: center;
-  padding: 50px;
-  background-color: #f0f0f0;
 }
